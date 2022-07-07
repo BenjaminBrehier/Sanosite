@@ -7,6 +7,18 @@ header {
     height: 200vh;
 }
 
+h2 {
+    margin-top: 2%;
+}
+
+#presentation {
+    margin-top: 10%;
+}
+
+#commander {
+    margin-top: 4%;
+}
+
 .container {
     clip: rect(0, auto, auto, 0);
     overflow: hidden;
@@ -129,6 +141,7 @@ section {
 ===================================================
 */
 footer {
+    margin-top: 5%;
     background-color: rgb(41, 41, 41);
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
@@ -247,10 +260,35 @@ footer {
 
 /*
 ===================================================
-                imgPortfolio
+                Reseaux
 ===================================================
 */
+
+#reseaux {
+    margin-top: 5%;
+}
+
+iframe {
+    margin-top: 4%;
+}
+
+.reseauxSociaux {
+    font-size: 15mm;
+    margin-top: 2%;
+}
+
+/*
+===================================================
+                Portfolio
+===================================================
+*/
+
+#portfolio {
+    margin-top: 4%;
+}
+
 .imgPortfolio {
+    margin-top: 2%;
     border: none;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
