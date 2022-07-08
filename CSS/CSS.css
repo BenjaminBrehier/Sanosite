@@ -16,7 +16,7 @@ h2 {
 }
 
 #commander {
-    margin-top: 4%;
+    margin-top: 10%;
 }
 
 .container {
@@ -90,12 +90,13 @@ section {
 }
 
 .socialMediasBtn {
+    margin-right: 20px;
     transition: all 0.5s;
     transform: translateX(0px);
 }
 
 .socialMediasBtn:hover {
-    transform: translateX(30px);
+    transform: translateY(30px);
     filter: brightness(2)
 }
 
@@ -318,6 +319,9 @@ iframe {
 }
 
 .reseauxSociaux {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-size: 15mm;
     margin-top: 2%;
 }
